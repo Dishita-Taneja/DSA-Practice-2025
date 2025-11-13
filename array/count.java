@@ -1,7 +1,5 @@
 package array;
 
-import java.util.Arrays;
-
 public class count {
     static int maxFrequencyElements(int[] arr) {
        int maxVal = arr[0];

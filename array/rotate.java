@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class rotate {
     
-    public void rotate(int[] nums, int k) {
+    public void rotatei(int[] nums, int k) {
    k %= nums.length;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
@@ -25,7 +25,7 @@ public static void main(String[] args) {
      int[] nums = {1,2,3,4,5,6,7};
 int k=3;
         rotate obj = new rotate();
-        obj.rotate(nums,k); 
+        obj.rotatei(nums,k); 
         System.out.println("Running sum: " + Arrays.toString(nums));
 }
 }

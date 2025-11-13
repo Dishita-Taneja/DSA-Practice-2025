@@ -1,6 +1,6 @@
 package stack;
 
-import java.util.Stack;
+
 
 public class usingarray {
     static class stack{

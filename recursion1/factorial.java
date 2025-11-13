@@ -1,7 +1,7 @@
 package recursion1;
 
 public class factorial {
-    static int factorial(int n)
+    static int fact(int n)
     {
         int res = 1, i;
         for (i = 2; i <= n; i++)
@@ -11,7 +11,7 @@ public class factorial {
 
     public static void main(String[] args)
     {
-        int num = 5;
-        System.out.println(factorial(5));
+        int n = 5;
+        System.out.println(fact(n));
     }
 }

@@ -2,7 +2,7 @@ package advancearray;
 
 public class trap {
 
-    public static int trap(int[] height) {
+    public static int trap1(int[] height) {
         int n = height.length;
         int[] li = new int[n];
         int[] ri = new int[n];
@@ -30,7 +30,7 @@ public class trap {
 
     public static void main(String[] args) {
         int[] height = {4, 2, 0, 3, 2, 5};
-        int result = trap(height);
+        int result = trap1(height);
         System.out.println("Total trapped water: " + result);
     }
 }

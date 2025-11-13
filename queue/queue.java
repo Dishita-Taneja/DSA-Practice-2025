@@ -1,5 +1,6 @@
-package queue;
-    import java.util.*;
+  package queue;
+
+
 public class queue {
 
     private int[] arr;
