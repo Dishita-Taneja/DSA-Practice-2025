@@ -1,7 +1,4 @@
 package hashmap;
-    import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
 
 public class miss {
     public static char getMaxOccuringChar(String s) {
