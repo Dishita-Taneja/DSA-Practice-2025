@@ -108,7 +108,7 @@ public class implement {
         map.put(1, 10);
         map.put(2, 20);
         map.put(3, 30);
-
+    System.out.println("KeySet: " + map.keySet());
         System.out.println("Get 2: " + map.get(2));
         System.out.println("Contains 3: " + map.containsKey(3));
         System.out.println("Removed 1: " + map.remove(1));
