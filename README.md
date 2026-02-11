@@ -35,25 +35,26 @@ Each folder corresponds to one topic, containing all the questions required.
 8.   Hashmap
 9.   Advance Array
 10.  Binary Search
-11.  Binary Tree
-12.  Binary Search Tree
-13.  Hashmap
-14.  Sliding Window 
-15.  Priority Queue
-16.  Sum up Binary tree and Binary search Tree
-17.  Sum up Hashmap and Sliding window technique.
-18.  Bit Manipulation
-19.  Number theory
-20.  Mathematical Algorithms.
-21.  Advance Recursion.
-22.  Backtracking
-23.  Greedy Algorithm 
-24.  Graph
-25.  Advanced Graph
-26.  Minimum Spanning Tree algorithms
-27.  Shortest Path Algorithm
-28.  Trie
-29.  Huffman coding
-30.  Dynamic programming
-31.  Segment tree
-32.  Range query
+11.  Tree
+12.  Binary Tree
+13.  Binary Search Tree
+14.  Hashmap
+15.  Sliding Window 
+16.  Priority Queue
+17.  Sum up Binary tree and Binary search Tree
+18.  Sum up Hashmap and Sliding window technique.
+19.  Bit Manipulation
+20.  Number theory
+21.  Mathematical Algorithms.
+22.  Advance Recursion.
+23.  Backtracking
+24.  Greedy Algorithm 
+25.  Graph
+26.  Advanced Graph
+27.  Minimum Spanning Tree algorithms
+28.  Shortest Path Algorithm
+29.  Trie
+30.  Huffman coding
+31.  Dynamic programming
+32.  Segment tree
+33.  Range query
