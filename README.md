@@ -1,7 +1,6 @@
 **Data Structures and Algorithms (DSA) Practice Repository**
 
 Welcome to my DSA Practice Repository!
-This repository contains all the essential Data Structures and Algorithms topics that I’m learning and practicing to strengthen my problem-solving and programming skills.
 
 Each topic is covered with concept explanations, solved problems, and optimized Java implementations (along with time and space complexity analysis).
 
