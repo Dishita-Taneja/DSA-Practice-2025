@@ -3,7 +3,7 @@ package dp;
 public class profit {
     public static void main(String[] args) {
         int[] start={1,2,3};
-        int[] end={3,4,5};
+        // int[] end={3,4,5};
         int[] profit={50,10,40};
         int n=3;
         int m=0;

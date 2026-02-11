@@ -116,18 +116,49 @@ public static int sumOfNodes(Node root) {
        int rightSum = sumOfNodes(root.right);
        return leftSum + rightSum + root.data;
    }
-public static int diameter(Node root) {
+public static int diameter1(Node root) {
        if(root == null) {
            return 0;
        }
 
 
        int diam1 = height(root.left) + height(root.right) + 1;
-       int diam2 = diameter(root.left);
-       int diam3 = diameter(root.right);
+       int diam2 = diameter1(root.left);
+       int diam3 = diameter1(root.right);
 
 
        return Math.max(diam1, Math.max(diam2, diam3));
+   }
+static class TreeInfo{
+    int ht;
+    int diam;
+    TreeInfo(int ht,int diam){
+        this.ht=ht;
+        this.diam=diam;
+    }
+}
+public static TreeInfo diameter(Node root) {
+       if(root == null) {
+           return new TreeInfo(0, 0);
+       }
+
+
+       TreeInfo leftTI = diameter(root.left);
+       TreeInfo rightTI = diameter(root.right);
+
+
+       int myHeight = Math.max(leftTI.ht, rightTI.ht) + 1;
+
+
+       int diam1 = leftTI.ht + rightTI.ht + 1;
+       int diam2 = leftTI.diam;
+       int diam3 = rightTI.diam;
+
+
+       int myDiam = Math.max(diam1, Math.max(diam2, diam3));
+
+
+       return new TreeInfo(myHeight, myDiam);
    }
 
  public static void main(String args[]) {
