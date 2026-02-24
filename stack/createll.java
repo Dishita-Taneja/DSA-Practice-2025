@@ -1,5 +1,5 @@
 package stack;
-
+import java.util.*;
 public class createll {
     private static class Node {
         int data;

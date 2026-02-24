@@ -3,7 +3,18 @@ package tree;
 import javax.swing.tree.TreeNode;
 
 public enum subtree {
-    
+    class TreeNode {
+      int val;
+      TreeNode left;
+      TreeNode right;
+      TreeNode() {}
+      TreeNode(int val) { this.val = val; }
+      TreeNode(int val, TreeNode left, TreeNode right) {
+          this.val = val;
+          this.left = left;
+          this.right = right;
+      }
+  }
  public boolean isIdentical(TreeNode root,TreeNode subRoot){
        if(subRoot == null && root == null){
            return true;
@@ -29,6 +40,8 @@ public enum subtree {
        }
        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot);
    }
+public static void main(String[] args){
 
+}
 }
 // only the code for match of sub tree 

@@ -1,5 +1,5 @@
 package queue;
-
+import java.util.*;
 public class createll {
     static class Node {
        int data;
