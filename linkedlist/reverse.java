@@ -15,9 +15,9 @@ public class reverse {
       Node p=head;
         while(p!=null){
             Node n =p.next;
-p.next=q;
-q=p;
-p=n;
+    p.next=q;
+    q=p;
+      p=n;
         }
         return q;
     }
@@ -38,7 +38,7 @@ p=n;
 
         System.out.print("Linked List: ");
         printList(head);
-
+System.out.println();
         Node r=reverseList(head);
         printList(r);
 }
